@@ -73,8 +73,6 @@ button {
     cursor: pointer;
 
     border-radius: 4px;
-    padding: 16px 32px;
-
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 
     font-weight: 500;
@@ -94,11 +92,16 @@ button {
     text-transform: uppercase;
 }
 
-.custom_text {
+.logo {
     color: var(--iris);
 }
 
+.custom_text {
+    color: var(--navy-blue)
+}
+
 .header__nav_list li a {
+    color: var(--slate);
     font-weight: 500;
 }
 
@@ -135,6 +138,35 @@ address {
 
 .order_section button:focus {
     background: var(--ocean);
+}
+
+
+/*  O U R  T E A M  S E C T I O N  */
+
+
+.our_team_section {
+    background: var(--cloud);
+}
+
+.section_title {
+    text-transform: capitalize;
+}
+
+.people_card {
+    border-radius: 0 0 4px 4px;
+
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+    background: var(--white);
+}
+
+/*  P O R T F O L I O  S E C T I O N  */
+
+.portfolio_title {
+    text-transform: capitalize;
+}
+
+.portfolio_section {
+    background: var(--cloud);
 }
 
 
