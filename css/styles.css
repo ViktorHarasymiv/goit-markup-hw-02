@@ -41,9 +41,10 @@ footer {
     color: var(--cloud);
 }
 
-h1 {
+.general_title {
     font-weight: 700;
     font-size: 56px;
+    letter-spacing: 0.02em;
     line-height: 107%;
     color: var(--white);
 }
@@ -67,17 +68,6 @@ h3,
 a {
     letter-spacing: 0.02em;
     color: var(--navy-blue);
-}
-
-button {
-    cursor: pointer;
-
-    border-radius: 4px;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-
-    font-weight: 500;
-    letter-spacing: 0.04em;
-    color: var(--white);
 }
 
 /*  H E A D E R  */
@@ -110,6 +100,10 @@ button {
     color: var(--ocean);
 }
 
+.nav_link {
+    color: #2e2f42;
+}
+
 .header__adrees_list li a:hover,
 .header__adrees_list li a:focus {
     color: var(--ocean);
@@ -117,6 +111,10 @@ button {
 
 address {
     font-style: normal;
+}
+
+.adress_link {
+    color: #434455;
 }
 
 /*  M A I N  */
@@ -141,6 +139,24 @@ address {
 }
 
 
+.btn {
+    font-family: "Roboto", sans-serif;
+
+    cursor: pointer;
+
+    border-radius: 4px;
+
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--white);
+}
+
+.btn:hover {
+    background-color: #404BBF;
+}
+
 /*  O U R  T E A M  S E C T I O N  */
 
 
@@ -155,7 +171,6 @@ address {
 .people_card {
     border-radius: 0 0 4px 4px;
 
-    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
     background: var(--white);
 }
 
