@@ -48,9 +48,24 @@ h1 {
     color: var(--white);
 }
 
+h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 111%;
+
+    text-align: center;
+}
+
+h3 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 120%;
+}
+
 h2,
 h3,
 a {
+    letter-spacing: 0.02em;
     color: var(--navy-blue);
 }
 
@@ -59,8 +74,6 @@ button {
 
     border-radius: 4px;
     padding: 16px 32px;
-    width: 169px;
-    height: 56px;
 
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 
@@ -71,7 +84,8 @@ button {
 
 /*  H E A D E R  */
 
-.header__nav_wrapper>a {
+.header__nav_wrapper>a,
+.footer_wrapper a {
     font-family: var(--second-family);
     font-weight: 700;
     font-size: 18px;
@@ -89,14 +103,17 @@ button {
 }
 
 .header__nav_list li a:hover,
-.header__nav_list li a:active {
+.header__nav_list li a:focus {
     color: var(--ocean);
 }
 
 .header__adrees_list li a:hover,
-
-.header__adrees_list li a:active {
+.header__adrees_list li a:focus {
     color: var(--ocean);
+}
+
+address {
+    font-style: normal;
 }
 
 /*  M A I N  */
@@ -116,6 +133,13 @@ button {
     background: var(--iris);
 }
 
-.order_section button:hover {
+.order_section button:focus {
     background: var(--ocean);
+}
+
+
+/*  F O O T E R  */
+
+#footer_logo {
+    color: #ffffff;
 }
