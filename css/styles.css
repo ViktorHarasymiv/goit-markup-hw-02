@@ -120,7 +120,7 @@ address {
 .order_section {
     text-align: center;
 
-    /* background-color: var(--navy-blue); */
+    background-color: var(--navy-blue);
 }
 
 .general_title {
@@ -128,6 +128,7 @@ address {
     font-size: 56px;
     letter-spacing: 0.02em;
     line-height: 107%;
+    color: #ffffff;
 }
 
 .order_section button {
@@ -180,9 +181,7 @@ address {
     text-transform: capitalize;
 }
 
-.portfolio_section {
-    background: var(--cloud);
-}
+.portfolio_section {}
 
 
 /*  F O O T E R  */
